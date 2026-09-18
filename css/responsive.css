@@ -1,0 +1,483 @@
+@media(max-width:1199px){
+/*About Section*/
+.about-btn a{
+	padding: 15px 100px;
+	font-weight: 400;
+}
+/*Blue Section*/
+.blue-area{
+	position: relative;
+}
+.blue-four{
+	position: absolute;
+	left: 100px;
+	bottom: 40px;
+}
+.blue-text a{
+	display: inline-block;
+	margin-top: 0;
+}
+.blue-four img{
+	margin-top: 20px;
+}
+/*Blue Ash Section*/
+.blue-ash-two{
+	position: absolute;
+	right: 105px;
+	bottom: 80px;
+}
+/*Pricing Section*/
+.pricing-card{
+	width: 99%;
+	height: 550px;
+
+}
+.pricing-member a{
+	padding: 10px 50px;
+}
+
+
+
+
+
+}
+
+@media(max-width:991px){
+/*Header Section*/
+header{
+	position: relative;
+}
+.navigation{
+	position: absolute;
+	background-color: black;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	display: none;
+}
+.menu-icon{
+	display: block;
+	text-align: right;
+}
+.menu-icon i.fa-times{
+	display: none;
+}
+.navigation ul{
+	display: block;
+}
+.navigation ul li a{
+	display: block;
+	padding: 10px 20px;
+}
+/*About Section */
+.about-btn a {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+	white-space: nowrap;
+}
+
+.about-area{
+	background: url('../images/about.png');
+	background-size: cover;
+	background-position: center;
+	padding: 200px 0 150px 0;
+	width: 100%;
+}
+/*Pet Section*/
+.pet-title h3{
+	position: relative;
+	z-index: 9;
+}
+.pet-side-one img{
+	max-width: 80%;
+}
+.pet-area{
+	position: relative;
+	margin-right: 0;
+}
+
+.pet-side-two img{
+	max-width: -20%;
+	height: auto;
+}
+/*Yellow Section*/
+.yellow-round{
+	width: 230px;
+	height: 230px;
+}
+.yellow-round{
+	margin-bottom: 25px;
+}
+/*Blue Section*/
+.blue-text h2{
+	font-family: 'Poppins', sans-serif;
+	padding-top: 150px;
+	font-size: 70px;
+	font-weight: 700;
+	color: #fff;
+	position: relative;
+	z-index: 1;
+}
+.blue-text{
+	text-align: center;
+}
+.blue-img img{
+	margin: auto;
+}
+.blue-text a{
+	position: relative;
+	z-index: 2;
+}
+/*Blue Ash Section*/
+.blue-ash-text{
+	position: relative;
+	z-index: 3;
+}
+.blue-ash-text h2{
+	font-family: 'Poppins', sans-serif;
+	padding-top: 150px;
+	font-size: 70px;
+}
+.blue-ash-text{
+	text-align: center;
+}
+.blue-ash-img img{
+	margin: auto;
+}
+/*Pricing Section*/
+.pricing-card{
+	margin-bottom: 40px;
+	width: 100%;
+}
+/*Foot Sectin*/
+.foot-right-one{
+	text-align: center;
+}
+.foot-text-one{
+	text-align: center;
+}
+.foot-print img{
+	margin: auto;
+}
+/*Footer Section*/
+.lorem-text{
+	text-align: center;
+}
+.lorem-img img{
+	margin: 20px auto;
+}
+
+
+
+
+}
+
+@media(max-width:767px){
+/* About section */
+.about-area{
+	background: url('../images/about.png');
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0 40px;
+}
+.about-text h3{
+	font-size: 50px;
+}
+.about-para p{
+	font-size: 20px;
+	padding: 10px 0;
+}
+.about-btn a {
+    white-space: nowrap;
+	padding: 10px 30px;
+}
+/* Pet section */
+.pet-area{
+	padding: 50px 0 40px;
+}
+.pet-title h3{
+	font-size: 30px;
+}
+.pet-title p{
+	padding: 10px 0;
+	font-size: 20px;
+}
+.pet-text h4{
+	padding-top: 20px;
+	font-size: 37px;
+}
+.pet-text p{
+	padding: 10px 0;
+	font-size: 20px;
+}
+.pet-side-img-one,
+.pet-side-img-two,
+.pet-side-img-three,
+.pet-side-one{
+	display: none;
+}
+/*Yellow Section*/
+.yellow-area{
+	padding: 50px 0 40px;
+}
+.yellow-title h3{
+	font-size: 50px;
+	padding-bottom: 10px;
+}
+.yellow-title p{
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+.yellow-rect{
+	display: none;
+}
+/* Blue section */
+.blue-text h2{
+	font-family: 'Poppins', sans-serif;
+	padding-top: 50px;
+	font-size: 50px;
+}
+.blue-text p{
+	font-size: 20px;
+}
+.blue-img img{
+	padding: 30px 0;
+	max-width: 80%;
+}
+.blue-text a{
+	padding: 10px 30px;
+}
+.blue-one,
+.blue-two,
+.blue-three,
+.blue-four{
+	display: none;
+}
+/*Blue Ash Section*/
+.blue-ash-area{
+	padding-bottom: 50px;
+}
+.blue-ash-text h2{
+	padding-top: 0;
+	font-size: 50px;
+}
+.blue-ash-text p{
+	font-size: 20px;
+}
+.blue-ash-text a{
+	display: inline-block;
+	font-family: 'Poppins', sans-serif;
+	background: #edc315;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+	padding: 10px 30px;
+	margin-top: 0;
+	border-radius: 50px;
+}
+.blue-ash-img img{
+	padding: 50px 0 40px;
+	max-width: 80%;	
+}
+.blue-ash-one,
+.blue-ash-two,
+.blue-ash-three,
+.blue-ash-four{
+	display: none;
+}
+/*Pricing Section*/
+.pricing-area{
+	background: #537fc1;
+	padding: 50px 0 40px;
+}
+.pricing-title h2{
+	font-size: 50px;
+	padding-bottom: 20px;
+}
+.pricing-title p{
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+/*Lorem Section*/
+.lorem-sec{
+	padding-bottom: 40px;
+}
+.lorem-title h2{
+	font-size: 50px;
+	padding-top: 50px;
+}
+.lorem-title p{
+	font-size: 20px;
+	padding-bottom: 0;
+}
+.lorem-bg-one{
+	display: none;
+}
+/* Jenney section */
+.jenny-title p{
+	padding-top: 20px;
+	font-size: 20px;
+}
+.jenny-title h3{
+	padding-bottom: 40px;
+	font-size: 50px;
+	padding-top: 0;
+}
+/* Footer section */
+footer{
+	padding: 50px 0 40px;
+}
+.footer-title{
+	text-align: center;
+}
+.footer-social ul{
+	justify-content: center;
+}
+.footer-about,
+.footer-service,
+.footer-other{
+	text-align: center;
+	padding-top: 20px;
+}
+.footer-title h5,
+.footer-about h5,
+.footer-service h5,
+.footer-other h5{
+	font-size: 25px;
+}
+.footer-title p,
+.footer-about p,
+.footer-service p,
+.footer-other{
+	font-size: 20px;
+}
+
+
+
+
+
+}
+
+@media(max-width:576px){
+/* About section */
+.about-btn a{
+	padding: 10px 30px;
+}
+/*Pet Section*/
+.pet-side-one img{
+	max-width: 50%;
+}
+.pet-area{
+	position: relative;
+	margin-right: 0;
+}
+
+.pet-side-two img{
+	max-width: -50px;
+	height: auto;
+}
+
+
+
+}
+
+@media(max-width:568px){
+/*Yellow Section*/
+.yellow-area{
+	position: relative;
+}
+.yellow-rect{
+	position: absolute;
+	top: -10px;
+	left: 80px;
+}
+
+
+
+
+}
+
+@media(max-width:398px){
+/*Yellow Section*/
+.yellow-area{
+	position: relative;
+}
+.yellow-rect{
+	position: absolute;
+	top: -10px;
+	left: 50px;
+}
+
+/*Blue Section*/
+
+.blue-area{
+	position: relative;
+}
+.blue-text{
+	text-align: center;
+	
+}
+.blue-one{
+	position: absolute;
+	top: 80px;
+	left: 40px;
+}
+.blue-two{
+	position: absolute;
+	right: 40px;
+	bottom: -30px;
+}
+.blue-three{
+	position: absolute;
+	top: 80px;
+	right: 40px;
+}
+.blue-four{
+	position: absolute;
+	left: 80px;
+	bottom: 40px;
+}
+/*Blue Ash Section*/
+.blue-ash-area{
+	position: relative;
+}
+.blue-ash-one{
+	position: absolute;
+	top: 80px;
+	left: 40px;
+}
+.blue-ash-two{
+	position: absolute;
+	right: 80px;
+	bottom: 40px;
+}
+.blue-ash-three{
+	position: absolute;
+	top: 80px;
+	right: 40px;
+}
+.blue-ash-four{
+	position: absolute;
+	left: 80px;
+	bottom: 40px;
+}
+/*Foot Sectin*/
+.foot-area{
+	width: 100%;
+}
+.foot-right-one{
+	text-align: center;
+}
+.foot-text-one{
+	text-align: center;
+}
+.foot-print img{
+	margin: auto;
+}
+
+
+
+
+
+}
